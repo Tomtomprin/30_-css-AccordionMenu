@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- タイトル名などの記述 -->
+
+    <div>
+        No.30 <br>
+        CSSのみでのアコーディオンパネル（スムーズに開閉）<br>
+        ポイント：スムーズに開閉するようにしたければ、開いた状態のパネルの高さは数値で指定する必要がある。<br>
+        理由：heightのtransitionが、height:autoを認識しないため。<br>
+        各パネルの高さをautoにした上で、スムーズに開閉したければjsを使用する。
+    </div>
+
+    <!-- 以下、アコーディオン関係記述 -->
+    <div class="wrapper">
+        <input type="checkbox" id="checkbox1" class="checkbox_area">
+        <label for="checkbox1" class="checkbox_title">
+            タイトル
+        </label>
+        <div for="checkbox1" class="checkbox_detail_wrapper">
+            <p>文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章
+            </p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <input type="checkbox" id="checkbox2" class="checkbox_area">
+        <label for="checkbox2" class="checkbox_title">
+            タイトル
+        </label>
+        <div for="checkbox2" class="checkbox_detail_wrapper">
+            <p>文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章
+            </p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <input type="checkbox" id="checkbox3" class="checkbox_area">
+        <label for="checkbox3" class="checkbox_title">
+            タイトル
+        </label>
+        <div for="checkbox3" class="checkbox_detail_wrapper">
+            <p>文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章
+            </p>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
